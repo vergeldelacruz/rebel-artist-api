@@ -6,13 +6,17 @@ This project uses data from a MS SQL Server using Entity Framework Core.
 
 In project folder,
 
-### 1. Update appsettings.json
+### 1. Create artists table
+Open data\script.sql
+Run this script in your local database to create and populate the artist table.
+
+### 2. Update appsettings.json
 Update the DefaultConnection string to point to your local database server.
   
-### 2. Run `dotnet build`
+### 3. Run `dotnet build`
 Builds the project.
 
-### 3. Run `dotnet run`
+### 4. Run `dotnet run`
 Runs the app in development mode.\
 Open [http://localhost:5252/graphql](http://localhost:5252/graphql) to open Banana Cake Pop in your browser.
 
