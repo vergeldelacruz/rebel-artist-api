@@ -6,7 +6,7 @@ namespace api.GraphQL.Query
 {
     public class ArtistQueryType
     {
-        // [UseOffsetPaging(MaxPageSize = 10,IncludeTotalCount = true)]
+        [UseOffsetPaging(MaxPageSize = 10000,IncludeTotalCount = true)]
         [UseFiltering]
         [UseSorting]
         public async Task<List<Artist>> GetArtistsAsync([Service] IArtistService artistService)
