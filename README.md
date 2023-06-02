@@ -9,7 +9,7 @@ Update the DefaultConnection string to point to your local database server
 
 "ConnectionStrings": {
     "DefaultConnection": "Server=tcp:<server>,1433;Initial Catalog=<database>;Persist Security Info=False;User ID=<username;Password=<password>;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-  }
+ }
   
 ### 2. Run `dotnet build`
 Builds the project
