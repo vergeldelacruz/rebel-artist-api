@@ -15,3 +15,5 @@ Builds the project.
 ### 3. Run `dotnet run`
 Runs the app in the development mode.\
 Open [http://localhost:5252/graphql](http://localhost:5252/graphql) to open Banana Cake Pop in your browser.
+
+<img width="956" alt="rebel-artist-app" src="https://github.com/vergeldelacruz/rebel-artist-api/assets/47512855/32130368-ff19-4196-a2f1-4cb1ef541d4e">
