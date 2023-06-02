@@ -6,10 +6,6 @@ This project uses data from a MS SQL Server using Entity Framework Core.
 
 ### 1. Update appsettings.json
 Update the DefaultConnection string to point to your local database server
-
-"ConnectionStrings": {
-    "DefaultConnection": "Server=tcp:rebelca.database.windows.net,1433;Initial Catalog=RebelDB;Persist Security Info=False;User ID=vergel;Password=rebelpwd123.;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-  }
   
 ### 2. Run `dotnet build`
 Builds the project
