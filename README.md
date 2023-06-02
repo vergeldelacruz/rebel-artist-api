@@ -7,7 +7,7 @@ This project uses data from a MS SQL Server using Entity Framework Core.
 In project folder,
 
 ### 1. Create artists table
-Open data\script.sql
+Open data\script.sql.\
 Run this script in your local database to create and populate the artist table.
 
 ### 2. Update appsettings.json
