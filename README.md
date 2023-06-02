@@ -4,6 +4,8 @@ This project uses data from a MS SQL Server using Entity Framework Core.
 
 ## Quick Setup
 
+In project folder,
+
 ### 1. Update appsettings.json
 Update the DefaultConnection string to point to your local database server.
   
