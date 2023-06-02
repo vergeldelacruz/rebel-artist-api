@@ -9,6 +9,5 @@ namespace api.Model.Entity
 
         }
         public DbSet<Artist> Artist { get; set; }
-
     }
 }
