@@ -1,6 +1,6 @@
 # rebel-artist-api
 A GraphQL API develop using HotChocolate, C# and .Net 7.0.
-This project uses data from a MS SQL Server using Entity Framework Core.
+This project uses data from a PostgreSQL  using Entity Framework Core.
 
 ## Quick Setup
 
