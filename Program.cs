@@ -10,8 +10,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IArtistService, ArtistService>();
 
 // Use SQL Server connection string
-builder.Services.AddDbContext<AppDBContext>(
+/* builder.Services.AddDbContext<AppDBContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+*/
+builder.Services.AddDbContext<AppDBContext>(
+    options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
 
 string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
