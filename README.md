@@ -20,4 +20,4 @@ Builds the project.
 Runs the app in development mode.\
 Open [http://localhost:5252/graphql](http://localhost:5252/graphql) to open Banana Cake Pop in your browser.
 
-<img width="957" alt="rebel-artist-app" src="https://github.com/vergeldelacruz/rebel-artist-api/assets/47512855/149e5f69-3588-4b63-8f12-1a82cafb3cdf">
+![image](https://github.com/vergeldelacruz/rebel-artist-api/assets/47512855/0e88de04-93bb-4047-b93c-efd104b61aff)
